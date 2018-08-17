@@ -152,31 +152,13 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-boke3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-text" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/07/23/boke3/">五种九九乘法表</a>
-    </h1>
-  
-
-        
-        <a href="/2018/07/23/boke3/" class="archive-article-date">
-  	<time datetime="2018-07-23T09:04:15.260Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-23</time>
-</a>
-        
-      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="完整格式输出九九乘法表"><a href="#完整格式输出九九乘法表" class="headerlink" title="完整格式输出九九乘法表"></a>完整格式输出九九乘法表</h1><p>for i in range(1,10):<br>    for j in range(1,10):<br>        print(“%d<em>%d=%2d” % (i,j,i</em>j),end=” “)<br>    print(“”) –&gt;</p>
-<h1 id="左上三角形"><a href="#左上三角形" class="headerlink" title="左上三角形"></a>左上三角形</h1><p>for i in range(1,10):<br>    for j in range(i,10):<br>        print(“%d<em>%d=%2d” % (i,j,i</em>j),end=” “)<br>    print(“”)</p>
-<h1 id="右上三角形"><a href="#右上三角形" class="headerlink" title="右上三角形"></a>右上三角形</h1><p>for i in range(1,10):<br>    for k in range(1,i):<br>        print (end=”       “)<br>    for j in range(i,10):<br>        print(“%d<em>%d=%2d” % (i,j,i</em>j),end=” “)<br>    print(“”)</p>
-<h1 id="左下三角形"><a href="#左下三角形" class="headerlink" title="左下三角形"></a>左下三角形</h1><p>for i in range(1,10):<br>    for j in range(1,i+1):<br>        print(“%d<em>%d=%2d” % (i,j,i</em>j),end=” “)<br>    print (“ “)</p>
-<h1 id="右下三角形"><a href="#右下三角形" class="headerlink" title="右下三角形"></a>右下三角形</h1><p>for i in range(1,10):<br>    for k in range(1,10-i):<br>        print(end=”       “)<br>    for j in range(1,i+1):<br>        product=i<em>j<br>        print(“%d</em>%d=%2d” % (i,j,product),end=” “)<br>    print (“ “)</p>
+        <h1 id="九九乘法表"><a href="#九九乘法表" class="headerlink" title="九九乘法表"></a>九九乘法表</h1><h1 id="外边一层循环控制行数"><a href="#外边一层循环控制行数" class="headerlink" title="外边一层循环控制行数"></a>外边一层循环控制行数</h1><h1 id="里边一层循环控制列数"><a href="#里边一层循环控制列数" class="headerlink" title="里边一层循环控制列数"></a>里边一层循环控制列数</h1><h1 id="左下"><a href="#左下" class="headerlink" title="左下"></a>左下</h1><p>i=1<br>while i&lt;=9:<br>    j=1<br>    while j&lt;=i:<br>        print(‘%d<em>%d=%2d’%(j,i,i</em>j),end=’ ‘)<br>        j+=1<br>    print(‘’)<br>    i+=1</p>
+<h1 id="左上"><a href="#左上" class="headerlink" title="左上"></a>左上</h1><p>for i in range(1,10):<br>    for j in range(i,10):<br>        print(‘%d<em>%d=%2d’% (i,j,i</em>j),end=’ ‘)<br>    print(‘’)</p>
 
       
 
@@ -189,7 +171,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2018/07/23/boke3/">展开全文 >></a>
+          <a class="article-more-a" href="/2018/08/17/text/">展开全文 >></a>
         </p>
       
 
